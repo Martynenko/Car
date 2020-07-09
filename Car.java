@@ -65,7 +65,5 @@ public class Car {
         this.color = color;
     }
 
-    public Car(String type) {
-        this.type = type;
-    }
+
 }
