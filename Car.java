@@ -6,12 +6,12 @@ public class Car {
     public String model;
     public String color;
 
-    public void gas() {
+    public void run() {
         //...ехать
         System.out.println("Car " + type + " run" );
     }
 
-    public void brake() {
+    public void stop() {
         //...остановиться
         System.out.println("Car " + type + " stoped" );
 
@@ -63,5 +63,9 @@ public class Car {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public Car(String type) {
+        this.type = type;
     }
 }
