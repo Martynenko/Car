@@ -4,7 +4,6 @@ public class Main {
         Car car = new Car();
         car.type = "crossover";
         car.averageSpeed = 100;
-        car.averageSpeed = 100;
         car.quantityOfDoors = 4;
 
 
